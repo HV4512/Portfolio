@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from '../assets/avatar.svg';
 
-import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaInstagram, FaMailBulk, FaVoicemail, FaEnvelope} from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'; 
@@ -58,15 +58,25 @@ const Banner = () => {
     <a href='#' className='text-gradient btn-link'>My Portfolio</a>
     </motion.div>
     {/* Socials */}
-   <div className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-   <a href='#'><FaGithub/></a>
-   <a href='#'><FaLinkedin/></a>
-   <a href='#'><FaInstagram/></a>
-   </div>
+   <motion.div 
+   variants={fadeIn('up',0.7)}
+    initial='hidden'
+    whileInView={'show'}
+    viewport={{once: false, anount:0.7}}
+   className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
+   <a href='https://github.com/HV4512' target="_blank"><FaGithub/></a>
+   <a href='https://www.linkedin.com/in/harsh-vardhan-05/' target="_blank"><FaLinkedin/></a>
+   <a href='https://www.instagram.com/jobby.karn/' target="_blank"><FaInstagram/></a>
+   {/*<a href='https://www.instagram.com/jobby.karn/' target="_blank"><FaEnvelope/></a>*/}
+   </motion.div>
     </div>
-    <div className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'> {/* HeadShot Image */}
+    <motion.div
+    variants={fadeIn('down',0.5)}
+    initial='hidden'
+    whileInView={'show'}
+    className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'> {/* HeadShot Image */}
     <img src={Image} alt=''/>
-    </div>
+    </motion.div>
     </div>
     </div>
     </section>
