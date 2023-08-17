@@ -1,8 +1,8 @@
 import React from 'react';
-import Image from '../assets/avatar.svg';
+import Img from '../assets/3.png'; 
 
-import {FaGithub, FaLinkedin, FaInstagram, FaMailBulk, FaVoicemail, FaEnvelope} from 'react-icons/fa';
-import { TypeAnimation } from 'react-type-animation';
+import {FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
+import {TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'; 
 
@@ -67,7 +67,7 @@ const Banner = () => {
    <a href='https://github.com/HV4512' target="_blank"><FaGithub/></a>
    <a href='https://www.linkedin.com/in/harsh-vardhan-05/' target="_blank"><FaLinkedin/></a>
    <a href='https://www.instagram.com/jobby.karn/' target="_blank"><FaInstagram/></a>
-   {/*<a href='https://www.instagram.com/jobby.karn/' target="_blank"><FaEnvelope/></a>*/}
+   <a href='' target="_blank"><FaEnvelope/></a>
    </motion.div>
     </div>
     <motion.div
@@ -75,7 +75,7 @@ const Banner = () => {
     initial='hidden'
     whileInView={'show'}
     className='hidden lg:flex flex-1 max-w-[320px] lg:max-w-[482px]'> {/* HeadShot Image */}
-    <img src={Image} alt=''/>
+    <img src={Img} alt=''/>
     </motion.div>
     </div>
     </div>

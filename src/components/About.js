@@ -25,12 +25,11 @@ const About = () => {
         whileInView={'show'}
         viewport={{once:false, amount:0.3}}
         className='flex-1'>
-          <h2 className='h2 text-accent'>About me.</h2>
-          <h3 className='h3 mb-4'>I am a Front-end developer.<br />Graduated from SRM INSTITUTE OF SCIENCE AND TECHNOLOGY.
+          <h2 className='h2 text-accent text-bold'>About me.</h2>
+          <h3 className='h3 mb-4'>I am a Front-end developer.<br />Computer Science Undergrad At SRM
           </h3>
           <p className='mb-6'>1.
-            Start a design project from scratch or with a template. On the editor, go to the sidebar and click "Apps," then select the "Text to Image" app.
-            2.
+            I am a 4th year Undergrad at SRM 
             Describe the image you’d like to generate. The more detail you can provide, the better.
             3.
             Choose an image style from our available options like Watercolor, Filmic, Neon, Color Pen</p>
