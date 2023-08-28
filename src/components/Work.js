@@ -22,7 +22,7 @@ const Work = () => {
             <h2 className='h2 leading-tight  text-accent'>
               My Latest<br/>Work
             </h2>
-            <p className='max-w-sm mb-16'>Et exercitation commodo quis exercitation magna magna proident minim laborum id ad eiusmod incididunt.</p>
+            <p className='max-w-sm mb-16'>These Are Some Of My Latest Projects.</p>
             <button className='btn btn-sm'>View All Projects</button>
           </div>
           {/* Image1*/}

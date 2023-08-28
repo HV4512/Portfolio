@@ -6,11 +6,9 @@ const Header = () => {
     <header className='py-8'>
     <div className='container mx-auto'>
     <div className='flex justify-between items-center'>
-    <a href='#'>
+    <a href='/'>
 
     <img src={name1} alt='' />
-    {/*<img src={Harsh} alt='' />
-  <img src={Vardhan} alt='' />*/}
     </a>
     <button className='btn btn-sm'>Work with me</button>
     </div>

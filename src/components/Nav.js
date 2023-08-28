@@ -1,6 +1,6 @@
 import React from 'react';
 import { BiHomeAlt, BiUser } from 'react-icons/bi';
-import { BsClipboardData, BsBriefcase, BsChatSquare, BsChatSquareText } from 'react-icons/bs';
+import { BsClipboardData, BsBriefcase, BsChatSquare } from 'react-icons/bs';
 
 import { Link } from 'react-scroll';
 const Nav = () => {
@@ -10,7 +10,7 @@ const Nav = () => {
   px-5 flex justify-between items-center text-white/50'>
       <Link to='home'  
       activeClass='active'
-      offset={-200}
+      offset={-180}
       smooth={true}
       spy= {true}
       className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'><BiHomeAlt /></Link>

@@ -1,10 +1,11 @@
 import React from 'react';
 import Img from '../assets/3.png'; 
-
+import { Link } from 'react-scroll';
 import {FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
 import {TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'; 
+
 
 const Banner = () => {
   return (
@@ -54,8 +55,10 @@ const Banner = () => {
     whileInView={'show'}
     viewport={{once: false, anount:0.7}}
     className='flex max-w-max gap-x-6 items-center mb-12 mx-auto lg:mx-0'>
-    <button className='btn btn-lg'>Contact Me</button>
-    <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+     <Link to='contact' 
+     smooth={true}
+     className='cursor-pointer scroll-smooth'> <button className='btn btn-lg'>Contact Me</button> </Link>
+    <a href='https://bit.ly/hv_4512' target="_blank" rel="noreferrer" className='text-gradient btn-link'>My Resume</a>
     </motion.div>
     {/* Socials */}
    <motion.div 
@@ -64,10 +67,10 @@ const Banner = () => {
     whileInView={'show'}
     viewport={{once: false, anount:0.7}}
    className='flex text-[20px] gap-x-6 max-w-max mx-auto lg:mx-0'>
-   <a href='https://github.com/HV4512' target="_blank"><FaGithub/></a>
-   <a href='https://www.linkedin.com/in/harsh-vardhan-05/' target="_blank"><FaLinkedin/></a>
-   <a href='https://www.instagram.com/jobby.karn/' target="_blank"><FaInstagram/></a>
-   <a href='' target="_blank"><FaEnvelope/></a>
+   <a href='https://github.com/HV4512' target="_blank" rel="noreferrer"><FaGithub/></a>
+   <a href='https://www.linkedin.com/in/harsh-vardhan-05/' target="_blank" rel="noreferrer"><FaLinkedin/></a>
+   <a href='https://www.instagram.com/jobby.karn/' target="_blank" rel="noreferrer"><FaInstagram/></a>
+   <a href='jobbykarn@gmail.com' target="_blank" rel="noreferrer"><FaEnvelope/></a>
    </motion.div>
     </div>
     <motion.div
