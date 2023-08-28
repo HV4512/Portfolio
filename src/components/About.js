@@ -28,11 +28,12 @@ const About = () => {
           <h2 className='h2 text-accent text-bold'>About me.</h2>
           <h3 className='h3 mb-4'>I am a Front-end developer.<br />Computer Science Undergrad At SRM
           </h3>
-          <p className='mb-6'>1.
-            I am a 4th year Undergrad at SRM 
-            Describe the image you’d like to generate. The more detail you can provide, the better.
-            3.
-            Choose an image style from our available options like Watercolor, Filmic, Neon, Color Pen</p>
+          <p className='mb-6'>
+            I am a 4th year Undergrad at SRM.
+            Technology has always fascinated me.
+            Now, I leverage various technologies to bring my thoughts to life and more.
+            
+            </p>
           {/* Stats */}
           <div className='flex gap-x-6 lg:gap-x-10 mb-12'>
           {/* Years of experience */}

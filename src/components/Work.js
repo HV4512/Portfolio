@@ -22,8 +22,8 @@ const Work = () => {
             <h2 className='h2 leading-tight  text-accent'>
               My Latest<br/>Work
             </h2>
-            <p className='max-w-sm mb-16'>These Are Some Of My Latest Projects.</p>
-            <button className='btn btn-sm'>View All Projects</button>
+            <p className='max-w-sm mb-8'>These Are Some Of My Latest Projects.</p>
+            {/* <button className='btn btn-sm'>View All Projects</button> */}
           </div>
           {/* Image1*/}
           <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
