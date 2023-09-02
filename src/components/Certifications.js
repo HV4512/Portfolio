@@ -46,11 +46,13 @@ const Services = () => {
         initial='hidden'
         whileInView={'show'}
         viewport={{once:false, amount:0.3}}
-        className='flex-1 mix-blend-lighten mb-12 lg:mb-0'>
-        {/* className='flex-1 {lg:bg-services lg:bg-bottom bg-no-repeat} mix-blend-lighten mb-12 lg:mb-0'> */}
+        className='flex-1 flex items-center mix-blend-lighten mb-12 lg:mb-0'>
+        <div>
+
         <h2 className='h2 text-accent mt-4 mb-2'>Certifications</h2>
         <h3 className='h3 max-w-[455px] mb-8'>I have completed.</h3>
-        <button className='btn btn-sm'>See My Work</button>
+        </div>
+        {/* <button className='btn btn-sm'>See My Work</button> */}
         </motion.div>
         {/* Services*/}
         <motion.div

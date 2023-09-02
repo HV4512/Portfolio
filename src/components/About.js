@@ -1,5 +1,6 @@
 import React from 'react';
 import CountUp from 'react-countup';
+import { Link } from 'react-scroll';
 import { useInView } from 'react-intersection-observer';
 import { motion } from 'framer-motion';
 import { fadeIn } from '../variants';
@@ -58,8 +59,12 @@ const About = () => {
             </div>
           </div>
           <div className='flex gap-x-8 items-center'>
-          <button className='btn btn-lg'>Contact me</button>
-          <a href='/' className='text-gradient btn-link'>My Portfolio</a>
+ <Link to='contact' 
+     smooth={true}
+     className='cursor-pointer scroll-smooth'> 
+          <button className='btn btn-lg'>Contact me</button></Link>
+
+          {/* <a href='/' className='text-gradient btn-link'>My Portfolio</a> */}
           </div>
           </motion.div>
       </div>

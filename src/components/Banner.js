@@ -1,7 +1,7 @@
 import React from 'react';
 import Img from '../assets/3.png'; 
 import { Link } from 'react-scroll';
-import {FaGithub, FaLinkedin, FaInstagram, FaEnvelope} from 'react-icons/fa';
+import {FaGithub, FaLinkedin, FaInstagram} from 'react-icons/fa';
 import {TypeAnimation } from 'react-type-animation';
 import {motion} from 'framer-motion';
 import {fadeIn} from '../variants'; 
@@ -47,7 +47,7 @@ const Banner = () => {
     initial='hidden'
     whileInView={'show'}
     viewport={{once: false, anount:0.7}}
-    className='mb-8 max-w-lg mx-auto lg:mx-0'> Welcome to my portfolio, here you can find what I know and decide if you like me.
+    className='mb-8 max-w-lg mx-auto lg:mx-0'> Welcome To My Portfolio, Here You Can Find What I Know, What I Do And Who I Am.
     </motion.p> 
     <motion.div 
     variants={fadeIn('up',0.6)}
@@ -70,7 +70,6 @@ const Banner = () => {
    <a href='https://github.com/HV4512' target="_blank" rel="noreferrer"><FaGithub/></a>
    <a href='https://www.linkedin.com/in/harsh-vardhan-05/' target="_blank" rel="noreferrer"><FaLinkedin/></a>
    <a href='https://www.instagram.com/jobby.karn/' target="_blank" rel="noreferrer"><FaInstagram/></a>
-   <a href='jobbykarn@gmail.com' target="_blank" rel="noreferrer"><FaEnvelope/></a>
    </motion.div>
     </div>
     <motion.div
