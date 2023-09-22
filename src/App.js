@@ -19,7 +19,7 @@ const App = () => {
       <Services />
       <Work />
       <Contact />
-      <Footer />
+      {/* <Footer /> */}
       {/* { <div className='h-[4000px]'></div> } */}
     </div>
   );
