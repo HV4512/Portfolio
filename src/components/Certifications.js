@@ -9,25 +9,30 @@ import { fadeIn } from '../variants';
 const services=[
   
   {
+    name : 'Back End Development and APIs',
+    description: "Created Backend APIs and Microservices",
+    link:'https://drive.google.com/file/d/1MHe1guJGmhUEX3GPDy1lK0GQj-hFO01i/view?usp=share_link',
+  },
+  {
     name : 'AWS Academy Cloud Architecting',
     description: "Worked on AWS servers and learnt about creating Web Apps.",
-    link:'https://drive.google.com/file/d/1NZJG1ZOBQ8jtcQnttOhXvWHi0vYWC-uw/view?usp=sharing',
+    link:'https://drive.google.com/file/d/1yBRckeW7k8i5hTd_ys0agUyuTqnCZHrc/view?usp=share_link',
   },
   {
     name : 'JavaScript WITH HTML AND CSS',
     description: "This covered how to build modern webpages using JavaScript.",
-    link:'https://drive.google.com/file/d/12cKcfxHZ-DdEzZ3PvvvtXcL1GpCgwdNh/view?usp=sharing',
+    link:'https://drive.google.com/file/d/1GIuuONgDRoAwM4odpFqiLJH4U1ks8GNG/view?usp=share_link',
   },
   // {
   //   name : 'Building Chatbot',
   //   description: "Built a conversational chatbot using Natural Language Processing and IBM's Watson Assistant. ",
   //   link:'https://drive.google.com/file/d/1GW-q6PWcHpLKAeMLokZ7dMNQLkxhvhzE/view?usp=sharing',
   // },
-  {
-    name : 'Introduction To IOT',
-    description: "Learnt about fundamentals of IoT.",
-    link:'https://drive.google.com/file/d/1j24OSptsVKaO4S13Vn_wtOJxJUCZytcZ/view?usp=sharing',
-  },
+  // {
+  //   name : 'Introduction To IOT',
+  //   description: "Learnt about fundamentals of IoT.",
+  //   link:'https://drive.google.com/file/d/1j24OSptsVKaO4S13Vn_wtOJxJUCZytcZ/view?usp=sharing',
+  // },
   {
     name : 'SQL Intermediate',
     description: "It covers topics like query optimization, data modeling.",
